@@ -1,0 +1,10 @@
+{
+	"name": "NoJimmy",
+	"version": "1.0",
+    "description": "Love Jimmy Wales too? ;-)",
+    "content_scripts": [{
+		"matches": ["http://*.wikipedia.org/*", "http://*.wikimedia.org/*", "http://*.wikiquote.org/*", "http://*.wikibooks.org/*"],
+      	"css": ["noJimmy.css"]
+    }],
+  "permissions": ["tabs", "http://*.wikipedia.org/*", "http://*.wikimedia.org/*", "http://*.wikiquote.org/*", "http://*.wikibooks.org/*"]
+}
