@@ -1,3 +1,7 @@
-.siteNoticePic {
-	display: none;
+div [id*='Banner']{
+    display: none;
+}
+
+div [id*='Notice']{
+    display: none;
 }
